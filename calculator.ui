@@ -25,7 +25,7 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
      <item>
-      <widget class="QLineEdit" name="lineEdit">
+      <widget class="QLineEdit" name="ekran">
        <property name="styleSheet">
         <string notr="true">background-color: rgb(222, 221, 218);</string>
        </property>
@@ -34,7 +34,7 @@
      <item>
       <layout class="QGridLayout" name="gridLayout">
        <item row="13" column="1">
-        <widget class="QPushButton" name="pushButton_11">
+        <widget class="QPushButton" name="sifir_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -44,7 +44,7 @@
         </widget>
        </item>
        <item row="13" column="3">
-        <widget class="QPushButton" name="pushButton_14">
+        <widget class="QPushButton" name="esittir_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(205, 171, 143);</string>
          </property>
@@ -54,7 +54,7 @@
         </widget>
        </item>
        <item row="7" column="0">
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="bir_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -80,7 +80,7 @@
         </spacer>
        </item>
        <item row="10" column="1">
-        <widget class="QPushButton" name="pushButton_9">
+        <widget class="QPushButton" name="sekiz_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -90,7 +90,7 @@
         </widget>
        </item>
        <item row="13" column="2">
-        <widget class="QPushButton" name="pushButton_7">
+        <widget class="QPushButton" name="carpma_tusu">
          <property name="styleSheet">
           <string notr="true">
 background-color: rgb(64, 67, 191);</string>
@@ -104,7 +104,7 @@ background-color: rgb(64, 67, 191);</string>
         <layout class="QHBoxLayout" name="horizontalLayout"/>
        </item>
        <item row="10" column="3">
-        <widget class="QPushButton" name="pushButton_13">
+        <widget class="QPushButton" name="cikarma_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(64, 67, 191);</string>
          </property>
@@ -114,7 +114,7 @@ background-color: rgb(64, 67, 191);</string>
         </widget>
        </item>
        <item row="8" column="1">
-        <widget class="QPushButton" name="pushButton_8">
+        <widget class="QPushButton" name="bes_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -124,7 +124,7 @@ background-color: rgb(64, 67, 191);</string>
         </widget>
        </item>
        <item row="10" column="0">
-        <widget class="QPushButton" name="pushButton_15">
+        <widget class="QPushButton" name="yedi_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -137,7 +137,7 @@ background-color: rgb(64, 67, 191);</string>
         <layout class="QVBoxLayout" name="verticalLayout_2"/>
        </item>
        <item row="10" column="2">
-        <widget class="QPushButton" name="pushButton_12">
+        <widget class="QPushButton" name="dokuz_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -150,7 +150,7 @@ background-color: rgb(64, 67, 191);</string>
         <layout class="QHBoxLayout" name="horizontalLayout_2"/>
        </item>
        <item row="8" column="2">
-        <widget class="QPushButton" name="pushButton_10">
+        <widget class="QPushButton" name="alti_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -160,7 +160,7 @@ background-color: rgb(64, 67, 191);</string>
         </widget>
        </item>
        <item row="7" column="1">
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="iki_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -170,7 +170,7 @@ background-color: rgb(64, 67, 191);</string>
         </widget>
        </item>
        <item row="7" column="3">
-        <widget class="QPushButton" name="pushButton_16">
+        <widget class="QPushButton" name="silme_tusu">
          <property name="styleSheet">
           <string notr="true">
 background-color: rgb(205, 171, 143);</string>
@@ -194,7 +194,7 @@ background-color: rgb(205, 171, 143);</string>
         </spacer>
        </item>
        <item row="7" column="2">
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="uc_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(243, 137, 229);</string>
          </property>
@@ -204,7 +204,7 @@ background-color: rgb(205, 171, 143);</string>
         </widget>
        </item>
        <item row="8" column="3">
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="toplama_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(64, 67, 191);</string>
          </property>
@@ -214,7 +214,7 @@ background-color: rgb(205, 171, 143);</string>
         </widget>
        </item>
        <item row="8" column="0">
-        <widget class="QPushButton" name="pushButton_6">
+        <widget class="QPushButton" name="dort_tusu">
          <property name="styleSheet">
           <string notr="true">
 background-color: rgb(243, 137, 229);</string>
@@ -225,7 +225,7 @@ background-color: rgb(243, 137, 229);</string>
         </widget>
        </item>
        <item row="13" column="0">
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="bolme_tusu">
          <property name="styleSheet">
           <string notr="true">background-color: rgb(64, 67, 191);
 </string>
