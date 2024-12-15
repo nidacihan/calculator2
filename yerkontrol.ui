@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>725</width>
+    <height>621</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>30</y>
+      <width>571</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="9" column="2">
+        <widget class="QPushButton" name="sekiz_tusu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(243, 137, 229);</string>
+         </property>
+         <property name="text">
+          <string>GUIDED</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QPushButton" name="bes_tusu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(243, 137, 229);</string>
+         </property>
+         <property name="text">
+          <string>DISARM</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="1">
+        <widget class="QPushButton" name="dort_tusu">
+         <property name="styleSheet">
+          <string notr="true">
+background-color: rgb(243, 137, 229);</string>
+         </property>
+         <property name="text">
+          <string>ARM</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <layout class="QVBoxLayout" name="verticalLayout_2"/>
+       </item>
+       <item row="9" column="1">
+        <widget class="QPushButton" name="yedi_tusu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(243, 137, 229);</string>
+         </property>
+         <property name="text">
+          <string>LOITER</string>
+         </property>
+        </widget>
+       </item>
+       <item row="15" column="4">
+        <layout class="QHBoxLayout" name="horizontalLayout"/>
+       </item>
+       <item row="7" column="3">
+        <widget class="QPushButton" name="alti_tusu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(243, 137, 229);</string>
+         </property>
+         <property name="text">
+          <string>RTL</string>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="2">
+        <widget class="QPushButton" name="sifir_tusu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(243, 137, 229);</string>
+         </property>
+         <property name="text">
+          <string>LAND</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="3">
+        <layout class="QVBoxLayout" name="verticalLayout_3"/>
+       </item>
+       <item row="12" column="1">
+        <widget class="QPushButton" name="bolme_tusu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(64, 67, 191);
+</string>
+         </property>
+         <property name="text">
+          <string>TAKEOFF</string>
+         </property>
+         <property name="autoRepeatInterval">
+          <number>100</number>
+         </property>
+        </widget>
+       </item>
+       <item row="12" column="3">
+        <widget class="QPushButton" name="carpma_tusu">
+         <property name="styleSheet">
+          <string notr="true">
+background-color: rgb(64, 67, 191);</string>
+         </property>
+         <property name="text">
+          <string>GOREV</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="15" column="3">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="1">
+        <layout class="QHBoxLayout" name="horizontalLayout_2"/>
+       </item>
+       <item row="9" column="3">
+        <widget class="QPushButton" name="dokuz_tusu">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(243, 137, 229);</string>
+         </property>
+         <property name="text">
+          <string>STABILIZE</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="0">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="9" column="4">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>725</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
